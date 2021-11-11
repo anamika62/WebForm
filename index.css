@@ -1,0 +1,130 @@
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .lap {
+
+            border: 7px solid black;
+            border-radius: 30px;
+            display: block;
+            border-bottom-width: 15px;
+            border-top-width: 12px;
+            border-left-width: 12px;
+            border-right-width: 12px;
+            margin: 0 auto;
+            max-width: 900px;
+            width: 90%;
+            margin-bottom: 20 20 20 20;
+            height: 600px;
+            background-repeat: no-repeat;
+            overflow: hidden;
+        }
+
+        form {
+
+            position: sticky;
+            background-color: burlywood;
+            margin: 0 auto;
+            max-width: 900px;
+        }
+
+        .ma {
+            float: left;
+            /*for scroll bar*/
+            width: 850px;
+            overflow-y: auto;
+            height: 550px;
+            margin-left: 15px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],
+        input[type="password"],
+        input[type="pincode"] select,
+        textarea {
+            width: 90%;
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 5px;
+            margin: 12px;
+
+        }
+
+        header {
+            background-image: url("education-school-books-study-to-learn-19555104.jpg");
+            text-align: center;
+            height: 100px;
+
+        }
+
+        h1 {
+            padding: 20px 30px;
+            color: aquamarine;
+            text-align: center;
+        }
+
+        main {
+            background-image: url("78604345-top-view-business-office-desk-background-the-applying-for-a-job-form-and-pen-pencil-eyeglasses-tree-.jpg");
+        }
+
+        input[type="submit"] {
+            font-weight: bold;
+            font-size: larger;
+            position: centre;
+            background-color: black;
+            color: rgba(231, 166, 68, 0.685);
+            padding: 30px 30px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .zama:hover {
+            background-color: rgba(59, 34, 201, 0.89);
+            color: rgb(214, 205, 205);
+            font-weight: bold;
+            padding: 25px 25px;
+            border: 10px bold white;
+        }
+        .box {
+
+            position: center;
+            margin-top: 0%;
+            background-color: black;
+            padding: 3px;
+            margin-left: 40%;
+            margin-right: 40%;
+        }
+
+        .phone {
+            padding: 5px;
+            border: 7px solid rgb(14, 7, 7);
+            border-radius: 30px;
+            display: block;
+            border-bottom-width: 15px;
+            border-top-width: 12px;
+            border-left-width: 12px;
+            border-right-width: 12px;
+            margin: 0 auto;
+            max-width: 900px;
+            width: 90%;
+            height: 600px;
+            margin-bottom: 20 20 20 20;
+            background-color: rgba(128, 128, 128, 0.63);
+            background-image: url("Samsung.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 40%;
+        }
+
+        .but {
+            padding: 10px;
+            margin-right: 0;
+        }
+
+        .lac {
+            padding: 5px;
+        }
